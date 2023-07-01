@@ -1,6 +1,6 @@
 {
   "name": "graphite",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate beautiful images from your code like https://carbon.now.sh but locally.",
   "main": "/dist/index.js",
   "types": "/dist/index.d.ts",
