@@ -1,0 +1,46 @@
+{
+  "name": "graphite",
+  "version": "0.0.2",
+  "description": "Generate beautiful images from your code like https://carbon.now.sh but locally.",
+  "main": "/dist/index.js",
+  "types": "/dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayeed205/Graphite.git"
+  },
+  "keywords": [
+    "code",
+    "image",
+    "block",
+    "svg",
+    "png",
+    "carbon",
+    "graphite",
+    "syntax",
+    "highlight"
+  ],
+  "author": {
+    "name": "Sayed Ahmed",
+    "email": "sayeed205@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sayeed205/Graphite/issues"
+  },
+  "homepage": "https://github.com/sayeed205/Graphite#readme",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.4.1",
+    "@types/node": "^20.3.3",
+    "prettier": "^2.8.7",
+    "shiki": "^0.12.1",
+    "shiki-renderer-svg": "^0.14.3"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.7.3",
+    "typescript": "^5.1.6"
+  }
+}
