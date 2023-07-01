@@ -5,8 +5,7 @@
   "main": "/dist/main.js",
   "types": "/dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "postbuild": "node build.js"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

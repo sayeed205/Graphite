@@ -5,10 +5,10 @@
         "outDir": "dist",
         "strict": true,
         "esModuleInterop": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "declaration": true
           },
       "include": [
         "src/**/*.ts"
-, "dist/index.d.ts"      ],
-      "files": [ "src/index.d.ts", "src/main.ts"]
+, "dist/index.d.ts"      ]
 }

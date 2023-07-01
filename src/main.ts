@@ -1,9 +1,16 @@
-import { Resvg } from "@resvg/resvg-js"
-import { getHighlighter } from "shiki"
-import { getSVGRenderer } from "shiki-renderer-svg"
+import { Resvg } from "@resvg/resvg-js";
+import { getHighlighter } from "shiki";
+import { getSVGRenderer } from "shiki-renderer-svg";
 
-import { GraphiteOptions } from '.'
-
+export interface GraphiteOptions {
+    background?: string | null;
+    padding?: number;
+    width?: number;
+    radius?: number;
+    size?: number;
+    font?: string;
+    theme?: string;
+}
 
 export default class Graphite {
     private SVG:Promise<string>
