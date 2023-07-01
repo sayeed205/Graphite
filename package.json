@@ -1,9 +1,9 @@
 {
   "name": "graphite-io",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Generate beautiful images from your code like https://carbon.now.sh but locally.",
   "main": "/dist/main.js",
-  "types": "/dist/index.d.ts",
+  "types": "/dist/main.d.ts",
   "scripts": {
     "build": "tsc"
   },
